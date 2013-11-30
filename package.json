@@ -1,0 +1,31 @@
+{
+  "name": "azuretablebackup",
+  "version": "0.0.1",
+  "description": "Command line tool to backup Windows Azure Table Storage",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "AzureTableBackup": "AzureTableBackup.js"
+  },
+  "dependencies": {
+    "azure": "~0.7.18",
+    "args": "~0.0.3",
+    "lazy": "~1.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azure",
+    "table",
+    "backup",
+    "restore",
+    "json"
+  ],
+  "author": "Richard Astbury",
+  "license": "MIT",
+  "bin": {
+    "AzureTableBackup": "./bin/AzureTableBackup"
+  }
+}
