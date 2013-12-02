@@ -1,6 +1,6 @@
 {
   "name": "azuretablebackup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command line tool to backup Windows Azure Table Storage",
   "main": "index.js",
   "preferGlobal": "true",
@@ -16,6 +16,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richorama/azuretablebackup.git"
+  },
   "keywords": [
     "azure",
     "table",
@@ -27,5 +31,8 @@
   "license": "MIT",
   "bin": {
     "AzureTableBackup": "./bin/AzureTableBackup"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/richorama/azuretablebackup/issues"
+  }  
 }
