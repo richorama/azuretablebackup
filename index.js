@@ -149,7 +149,6 @@ function restoreEntities(table, filename){
                 .forEach(function(line){
                     count += 1;
                     var json = JSON.parse(line.toString());
-                    console.log(json);
                     tableService.insertOrReplaceEntity(table, json, function(err){
                         if(err){
                             console.log(err);
