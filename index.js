@@ -41,7 +41,7 @@ try {
 }
 catch (err) {
     console.log(options.getHelp());
-    return;
+    process.exit();
 }
 
 var tableService = azure.createTableService(parsed.name, parsed.key);
